@@ -43,8 +43,8 @@ export const getStore = (state, isServer?): Store<RootState> => {
       persistStore(store, { whitelist }, _ => {
         console.log(`define whitelist: ${whitelist.join(', ')}`);
       });
+      store.sagaTask = sagaMiddleware.run(rootSaga);
     }
-    store.sagaTask = sagaMiddleware.run(rootSaga);
     return store;
   }
 };
