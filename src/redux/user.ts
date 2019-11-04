@@ -22,7 +22,7 @@ export const reducer: Reducer<UserState> = (state = initialState, action) =>
         break;
       }
       case LOG_IN_SUCCESS: {
-        draft.userInfo = action.data;
+        draft.userInfo = action.data.user;
         break;
       }
       case LOG_IN_FAILURE: {

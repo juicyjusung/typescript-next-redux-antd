@@ -3,7 +3,7 @@ import axios from 'axios';
 import { LOG_IN_REQUEST, LOG_IN_SUCCESS, LOG_IN_FAILURE } from '../redux/user';
 
 function loginAPI(loginFormData) {
-  return axios.post('api', loginFormData, {
+  return axios.post('http://api', loginFormData, {
     withCredentials: true,
   });
 }
