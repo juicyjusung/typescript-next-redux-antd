@@ -11,10 +11,10 @@ const StyledButton = styled(Button)`
 const Home = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <h1>IndexPage</h1>
       <Link href="/login">
         <a>
-          <StyledButton type="primary">Login!</StyledButton>
+          <StyledButton type="primary">LoginPage</StyledButton>
         </a>
       </Link>
     </div>
