@@ -2,7 +2,7 @@
   "name": "tpyescript-next-redux-antd",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/juicyjusung/tpyescript-next-redux-antd",
+  "repository": "https://github.com/juicyjusung/typescript-next-redux-antd",
   "author": "juicyjusung <juicyjusung@gmail.com>",
   "license": "MIT",
   "private": true,
